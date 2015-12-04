@@ -1,0 +1,14 @@
+.idea
+*.iml
+.metadata
+.settings
+.classpath
+.project
+logs
+target
+Thumbs.db
+*.log
+*.log.*
+build
+bin
+temp
