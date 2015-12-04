@@ -1,6 +1,6 @@
 package com.cy.modules.sys.listener;
 
-import com.cy.common.util.SessionContext;
+import com.cy.common.utils.SessionContext;
 
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
