@@ -26,7 +26,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
         response.setContentType("text/html;charset=UTF-8");
 
         //过滤登录操作、用户操作
-        String[] noFilters = new String[]{"user", "login"};
+        String[] noFilters = new String[]{"user", "login", "mobile"};
         String uri = request.getRequestURI();
         boolean beFilter = true;
         for (String s : noFilters) {

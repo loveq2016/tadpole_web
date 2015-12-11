@@ -37,7 +37,8 @@ public class LoginController {
      */
     @RequestMapping(value = "/signin", method = RequestMethod.GET)
     public ModelAndView login(HttpSession session, ModelAndView model) throws Exception {
-        User user = userService.getEntityById("1");
+        System.out.println("ok");
+     /*   User user = userService.getEntityById("1");
         BeanInfo bif = Introspector.getBeanInfo(User.class);
         PropertyDescriptor pds[] = bif.getPropertyDescriptors();
         for(PropertyDescriptor pd:pds){
@@ -47,7 +48,8 @@ public class LoginController {
             System.out.println(name + ":" + value.toString());
         }
         model.setViewName("signin");
-        return model;
+        return model;*/
+        return null;
     }
 
 }
